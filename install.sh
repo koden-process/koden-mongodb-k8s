@@ -1,5 +1,6 @@
 #!/bin/sh
 
+read -p "Entrez le nom du repo (REPO) ex : user/repo : " REPO
 read -p "Entrez le nom de l'application (APP_NAME) : " APP_NAME
 read -p "Entrez le nom du projet ArgoCD (PROJECT_NAME) : " PROJECT_NAME
 read -p "Entrez le nom du secret Kubernetes (SECRET_NAME) : " SECRET_NAME
